@@ -4,7 +4,7 @@ A barebones YouTube video downloader cobbled together for personal use. It's fun
 
 This Python script automates the process of downloading YouTube videos and their corresponding audio tracks (using pytube), then combines them into a single file (using ffmpeg). It can handle both individual YouTube URLs and lists of URLs stored in text files. 
 
-It particularly downloads the highest resolution video available along with the audio separately and combines them.
+It particularly downloads the highest resolution video available along with the audio separately and combines them. This enables bypassing the limitation of 360p/720p as the maximum resolution of video streams with audio. So, this script can download a 1080p stream without audio, and a separate audio stream, and mux them to get the final output.
 
 ## Prerequisites
 
